@@ -11,5 +11,8 @@ end
 
 local function OnQuestTurnin(self, event, quest_id)
   if not IsWorldQuest(quest_id) then return end
-  print("Turned in a world quest", quest_id)
+  ns.SendMessage("_WORLD_QUEST_COMPLETED")
 end
+
+
+ns.RegisterCallback("QUEST_TURNED_IN", OnQuestTurnin)
