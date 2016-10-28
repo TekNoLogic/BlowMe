@@ -4,6 +4,12 @@
 ## Notes: it ain't gonna blow itself
 ## Author: Tekkub Stoutwrithe
 
+## SavedVariables: BlowMeDB
+
 externals\events.lua
 
 services\world_quest_complete.lua
+
+frames\button.lua
+
+init.lua
