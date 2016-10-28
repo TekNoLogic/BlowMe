@@ -8,3 +8,6 @@ ns.dbdefaults = {
   x = -100,
   y = -150,
 }
+
+
+ns.MakeRepositionable = nil
