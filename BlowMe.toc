@@ -1,0 +1,9 @@
+## Interface: 70100
+
+## Title: BlowMe
+## Notes: it ain't gonna blow itself
+## Author: Tekkub Stoutwrithe
+
+externals\events.lua
+
+services\world_quest_complete.lua
