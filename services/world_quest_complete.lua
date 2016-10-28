@@ -2,7 +2,6 @@
 local myname, ns = ...
 
 
-
 local function IsWorldQuest(quest_id)
 	local _, _, world_quest_type = GetQuestTagInfo(quest_id)
 	return world_quest_type ~= nil
