@@ -5,7 +5,7 @@ local myname, ns = ...
 ns.dbname = "BlowMeDB"
 ns.dbdefaults = {
   point = "TOP",
-  x = -100,
+  x = 0,
   y = -150,
 }
 
