@@ -13,5 +13,6 @@ services\whistle_blown.lua
 services\world_quest_complete.lua
 
 frames\button.lua
+frames\cooldown.lua
 
 init.lua

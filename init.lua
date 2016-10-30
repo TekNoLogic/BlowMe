@@ -10,4 +10,15 @@ ns.dbdefaults = {
 }
 
 
-ns.MakeRepositionable = nil
+ns.CreateButton(141605)
+
+
+local function OnLogin()
+  for i,v in pairs(ns) do
+    if i:match("^Create") then ns[i] = nil end
+  end
+  ns.MakeRepositionable = nil
+end
+
+
+ns.RegisterCallback("PLAYER_LOGIN", OnLogin)
