@@ -6,7 +6,7 @@ ns.dbname = "BlowMeDB"
 ns.dbdefaults = {
   point = "TOP",
   x = 0,
-  y = -150,
+  y = -175,
 }
 
 
